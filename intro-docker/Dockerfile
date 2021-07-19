@@ -1,8 +1,10 @@
 # Specify a base image
 FROM node:alpine
 
-# Install some depenedncies
+# Copy files todocker directory
 COPY ./ ./
+
+# Install some depenedncies
 RUN npm install
 
 # Default Command
