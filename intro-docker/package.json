@@ -1,0 +1,13 @@
+{
+  "name": "intro-docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon index",
+    "start": "node index"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
