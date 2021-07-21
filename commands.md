@@ -16,3 +16,15 @@ docker build .
 ```bash
  docker run jobizil/visits
 ```
+
+##### Start a docker-compose container
+
+```bash
+ docker-compose up
+```
+
+##### Rebuild an image
+
+```bash
+ docker-compose up --build
+```
