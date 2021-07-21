@@ -1,0 +1,11 @@
+version: '3'
+#Services is represented as a type of container
+services:
+  redis-server:
+    image: 'redis'
+  node-app:
+    build: .
+    ports:
+      - '3000:3001'
+      #'-' in a yml file specifies an array
+      # NB: the first port is the local machine while the other is the docker port.
