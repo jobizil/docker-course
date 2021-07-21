@@ -1,0 +1,4 @@
+Docker-Compose
+It's a seperate CLI that gets installed with Docker and it is used to start up multiple Docker containers at the same time. It also helps to automate some long-winded arguments to passing 'docker run'.
+
+It helps from writing tons of commands in the Docker CLI.
