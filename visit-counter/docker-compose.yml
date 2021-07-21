@@ -9,3 +9,4 @@ services:
 #Services is represented as a type of container
 #'-' in a yml file specifies an array
 # NB: the first port is the local machine while the other is the docker port.
+# Read on restart policy => restart: always
