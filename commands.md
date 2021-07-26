@@ -28,3 +28,15 @@ docker build .
 ```bash
  docker-compose up --build
 ```
+
+##### Launch docker-compose in background
+
+```bash
+docker-compose up -d
+```
+
+##### Stop Containers
+
+```bash
+docker-compose down
+```
