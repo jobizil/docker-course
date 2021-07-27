@@ -11,6 +11,12 @@ docker build -t jobizil/visits .
 docker build .
 ```
 
+##### Build a docker image with custome name (eg Dockerfile.dev)
+
+```bash
+docker build -f Dockerfile.dev .
+```
+
 ##### Run a docker container
 
 ```bash
